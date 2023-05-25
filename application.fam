@@ -1,0 +1,12 @@
+App(
+    appid="kodpet",
+    name="KodPetFlipper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="kodpet",
+    cdefines=["APP_MAIN"],
+    requires=["gui"],
+    stack_size=1 * 1024,
+#    icon="kodpet.png",
+    order=50,
+    fap_category="Game",
+)

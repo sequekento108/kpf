@@ -1,0 +1,1 @@
+int whowinbattlegotchi(Tamagotchi *player0,Tamagotchi *player1);
